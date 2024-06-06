@@ -1,6 +1,9 @@
 /* Layout styles */
+$system-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 body {
-  font-family: "Roboto", Arial, sans-serif;
+  /* font-family: "Roboto", Arial, sans-serif; */
+	font-family: $system-font;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +23,8 @@ header {
   width: 100%;
   background-color: #004d40; /* 深绿色 */
   color: white;
+	/* background-color: white; */
+  /* color: black; */
   padding: 15px 20px;
   display: flex;
   justify-content: space-between;

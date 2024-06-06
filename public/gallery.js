@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     let IMAGE_BASE_URL;
     let columns = 3; // Default number of columns
-    let imagesPerLoad = 10; // Default images per load
+    let imagesPerLoad = 15; // Default images per load
     const SCROLL_THRESHOLD = 100; // Scroll threshold to start hiding the header
     let currentImageRequest = null; // Variable to hold the current image request
     let currentExifRequest = null; // Variable to hold the current EXIF request
